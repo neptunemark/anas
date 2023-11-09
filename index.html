@@ -34,6 +34,17 @@
 <!-- demo font -->
 
 
+<!-- 
+
+ profile pic -         line 59
+ company-logo -        line 60
+ Name         -        line 64
+ link deti    -        line 84 to 100
+ vcf dowload -         line 226
+ 
+ 
+ -->
+
   
   </head>
 
@@ -58,9 +69,11 @@
             <div class="personalBio">
               <p></p>
             </div>
+            
             <div class="profile-button" id="profile-button">
               <button class="connect-btn" onclick="openModal('modal-1')">connect with me</button>
-              <button class="connect-btn" onclick="saveData()">Save to phone</button>
+              <!-- <button class="connect-btn" onclick="saveData()">Save to phone</button> -->
+              <a class="connect-btn" href="./contact/sample.vcf" download>Save to phone</a>
             </div>
           </div>
         </div>
@@ -210,7 +223,7 @@ window.onload = function () {
   var canonical_identifier = `65380a48ca3518004ddaf358`
   if(canonical_identifier != "64e4a68bc6c3a8004d5dee20"){
     document.getElementById("profile-button").innerHTML=`<button class="connect-btn" onclick="openModal('modal-1')">connect with me</button>
-              <button class="connect-btn" onclick="saveData()">Save to phone</button>`;
+    <a class="connect-btn" href="./contact/sample.vcf" download>Save to phone</a>`;
     document.getElementById("submitButton").innerHTML="Connect";
     //setTimeout(function () {
       //openModal("modal-1");

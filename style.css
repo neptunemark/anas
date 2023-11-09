@@ -293,7 +293,9 @@ body {
     padding: 40px;
     overflow: auto
 }
-
+#profile-button a{
+    text-align: center;
+}
 .modal-container.open {
     display: flex;
     justify-content: center;
