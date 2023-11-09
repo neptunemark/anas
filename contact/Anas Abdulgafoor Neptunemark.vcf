@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Neptunemark ;Anas Abdulgafoor ;;;
+FN:Anas Abdulgafoor Neptunemark
+ORG:Neptunemark 
+TITLE:Managing Director
+TEL;type=Mobile;waid=919539963413:+91 95399 63413
+TEL;type=Work:+91 85903 05060
+item1.URL:www. Neptunemark.com
+item1.X-ABLabel:OTHER
+item2.EMAIL;type=INTERNET:anas@neptunemark.com
+item2.X-ABLabel:Other
+END:VCARD
