@@ -219,21 +219,25 @@ body {
 .profile-button {
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    flex-direction: column;
 }
 
 .profile-button .connect-btn {
-    border-radius: 30px;
-    color: #fff;
+    width: 230px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
     margin: 5px;
     font-size: 17px;
     font-weight: 400;
-    padding: 15px 19px;
-    background-color: #181924;
-    border: .5px solid grey;
+    padding: 10px 0;
+    background-color: #1774ca;
     text-transform: capitalize
 }
 
+.connect-btn:focus{
+    background-color: #0a4f91;
+}
 .profile-button .profilesave-btn {
     background-color: #181924;
     border-radius: 50px;
